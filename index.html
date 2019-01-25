@@ -7,13 +7,27 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="shortcut icon" href="morty.ico" type="image/x-icon">
   </head>
-  <body>
+  <nav id="nav">
+    <ul id="nav-bar">
+      <li><a href=#top>home</a></li>
+      <li><a href=#about-me>about me</a></li>
+      <li><a href=#projects>projects</a></li>
+      <li>contact</li>
+    </ul>
+    <ul id="social-links">
+      <li id="linkedin-nav"><a href="https://www.linkedin.com/in/ericmauldin" target="_blank"><img id="linkedin" src="images/linkedin.png"></a></li>
+      <li id="github-nav"><a href="https://github.com/emauldin84" target="_blank"><img id="github" src="images/github.png"></a></li>
+    </ul>
+  </nav>
+  <body id="top">
+
     <h1>About Eric</h1>
+    <button> Change user</button>
     <figure>
-      <img src="images/Eric.png" alt="A Photo of Eric">
-      <figcaption>Click image for more</figcaption>
+      <img id="img-eric" src="images/Eric.png" alt="A Photo of Eric">
+      <figcaption id="eric-caption">Click image for more</figcaption>
     </figure>
-    <p>Since 2011 I have worked as Director of Transportation at a local
+    <p id="about-me">Since 2011 I have worked as Director of Transportation at a local
       destination management company. In this role my major responsibilities
       centered around operations and management. During this time, however, I
       dabbled in a few side projects where I fumbled my way through building
@@ -28,9 +42,26 @@
       <li>Gaming</li>
       <li>Spectator Sports</li>
       <li>Cooking</li>
+      <li>Food(uh)</li>
       <li>Film and Television</li>
     </ul>
-    <button> Change user</button>
+
+    <hr>
+
+    <div id="projects">
+      <h2>Projects</h2>
+      <figure id="BON">
+        <a href="https://breakeronenine.com/" target="_blank"><img id="img-BON" src="images/BON-home.png" alt="BreakerOneNine\'s Homepage"></a>
+        <figcaption id="BON-caption">WordPress site - BreakerOneNine.com</figcaption>
+      </figure>
+    </div>
+
+    <hr>
+
+    <div class="contact">
+      <h2>Contact</h2>
+    </div>
+
     <script src="scripts/main.js"></script>
   </body>
 </html>

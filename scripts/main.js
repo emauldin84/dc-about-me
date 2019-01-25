@@ -1,4 +1,4 @@
-var myImage = document.querySelector('img');
+var myImage = document.querySelector('#img-eric');
 
 myImage.onclick = function() {
   var mySrc = myImage.getAttribute('src');
